@@ -1,6 +1,6 @@
 //
 // There is also an 'inline while'. Just like 'inline for', it
-// loops at compile time, allowing you to do all sorts of
+// loops at compile time, allowing you do all sorts of
 // interesting things not possible at runtime. See if you can
 // figure out what this rather bonkers example prints:
 //
@@ -35,7 +35,7 @@ pub fn main() void {
     // at compile time.
     //
     // Please fix this to loop once per "instruction":
-    inline while (i < instructions.len) : (i += 1) {
+    inline while (i < instructions.len) : (i += 3) {
 
         // This gets the digit from the "instruction". Can you
         // figure out why we subtract '0' from it?
